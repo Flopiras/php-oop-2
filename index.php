@@ -29,7 +29,7 @@ include_once __DIR__ . '/data/items.php';
                     <?php foreach ($items as $item) : ?>
                         <div class="col">
                             <!-- card -->
-                            <div class="card" style="width: 18rem;">
+                            <div class="card my-2 pt-2" style="width: 18rem;">
                                 <img src="<?= $item->getImage() ?>" class="card-img-top" alt="<?= $item->getTitle() ?>">
                                 <div class="card-body">
                                     <h5 class="card-title"><?= $item->getTitle() ?></h5>
