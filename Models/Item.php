@@ -9,6 +9,9 @@ class Item
     // contructor
     public function __construct($title, $image, $type)
     {
+        $this->setTitle($title);
+        $this->setImage($image);
+        $this->setType($type);
     }
 
     // methods
