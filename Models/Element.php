@@ -1,6 +1,6 @@
 <?php
 
-class Item
+class Element
 {
     private $title;
     private $image;
