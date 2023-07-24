@@ -23,4 +23,4 @@ $item_8 = new item('Topini di peluche Trixie', 'https://arcaplanet.vtexassets.co
 
 $items = [$item_1, $item_2, $item_3, $item_4, $item_5, $item_6, $item_7, $item_8];
 
-var_dump($items);
+// var_dump($items);
